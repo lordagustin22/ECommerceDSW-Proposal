@@ -4,29 +4,15 @@
 
 - 47403 - Gómez, Agustín
 
-## Estructura
+# Estructura
 
 <!-- `backend/`: API en Node.js + Express + MongoDB -->
 
 `frontend/`: Aplicación en React + TypeScript
 
-## Instalación
+# Repositorios
 
-1. Backend:
-
-   ```bash
-   cd backend
-   npm install
-   npm run dev
-   ```
-
-2. Frontend:
-
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+- [backend app](https://github.com/lordagustin22/ECommerce-dsw-backend)
 
 # Enunciado
 
