@@ -1,71 +1,61 @@
 # E-commerce de Muebles (DSM-TP)
 
-# Integrantes
+## Integrantes
 
 - 47403 - Gómez, Agustín
 - 46804 - Pitavino Tomás
+- 49806 - Enzo Zajarías
 
-# Estructura
+## Estructura
 
 <!-- `backend/`: API en Node.js + Express + MongoDB -->
 
 `frontend/`: Aplicación en React + TypeScript
 
-# Repositorios
+## Repositorios
 
 - [backend app](https://github.com/lordagustin22/ECommerce-dsw-backend)
 
-# Enunciado
+## Descripción
 
-Se pretende hacer un e-commerce de una mueblería. Los clientes podrán buscar y filtrar cada producto en un catálogo que se les muestra. Cada producto se identifica por id, nombre, descripción, precio, y categoría.
+Esto es un E-commerce de una mueblería. Los clientes podrán buscar, filtrar cada producto en un catálogo que se les muestra, así como agregarlos a favoritos. Los productos se pueden agregar directamente al carrito o pasar al checkout inmediatamente. Al hacer checkout se puede elegir el medio de pago que más le convenga al cliente. Conforme un cliente compra muchos productos, se les va otorgando puntos que les permitirán tener descuentos. Los costos de envío se reducirán cuando los clientes compren en mucha cantidad. Las compras en mucha cantidad son consideradas como compras mayoristas. Hay un sistema de reseñas donde cada cliente puede dejar su opinión del producto. Cada compra hecha por un usuario se agrega a un historial de pedidos.
 
-Los proveedores pueden registrarse y subir sus productos.
+Los administradores pueden subir, actualizar, gestionar y borrar cada uno de los productos.
 
 Clases: Cliente, Producto, Administrador, Precio, Proveedor, Vendedor
 
 1. Modelado del Negocio
 
-- Stakeholders (Actores Clave)
+- Clientes:
 
-Clientes:
+  - Compradores de muebles (B2C).
 
-- Compradores de muebles (B2C).
-- Empresas que compran a granel (B2B, opcional).
+- Administradores:
 
-Administradores:
-
-- Gestionan catálogo, pedidos y usuarios.
-- Vendedores/Proveedores (opcional):
-- Si el marketplace permite múltiples vendedores.
+  - Gestionan catálogo, pedidos y usuarios.
 
 2. Requisitos Funcionales
 
-- Para Clientes:
+   - Para Clientes:
 
-* Registro/login (email o redes sociales).
-* Catálogo de muebles con filtros (categoría, precio, material).
-* Carrito de compras + checkout (Stripe/PayPal).
-* Historial de pedidos.
-* Reseñas y ratings.
+     - Registro/login (email o redes sociales).
+     - Catálogo de muebles con filtros (categoría, precio, material).
+     - Carrito de compras + checkout
+     - Historial de pedidos.
+     - Reseñas y ratings.
 
-- Para Administradores:
+   - Para Administradores:
 
-* Panel de control (CRUD de productos, usuarios, pedidos).
-
-* Dashboard de ventas (gráficos con Chart.js).
-
-* Gestión de envíos (integración con API de logística).
-
-- Para Vendedores (AD):
-
-* Subida de productos.
-* Gestión de inventario.
+     - Panel de control (CRUD de productos, usuarios, pedidos).
+     - Gestión de inventarios
+     - Dashboard de ventas
+     - Gestión de envíos
 
 3. MVP (Mínimo Producto Viable)
 
-- Fase 1: Catálogo + carrito + checkout básico.
-- Fase 2: Autenticación + panel de administrador.
-- Fase 3 (opcional): Reseñas, integración con logística.
+   - Fase 1: Catálogo + carrito + checkout básico.
+   - Fase 2: Autenticación + panel de administrador.
+   - Fase 3 (opcional): Dashboard de ventas + reseñas + integración con logística.
 
 <!-- 4. Tecnologías Confirmadas -->
 <!---->
