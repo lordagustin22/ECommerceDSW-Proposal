@@ -3,8 +3,8 @@
 ## Integrantes
 
 - 47403 - Gómez, Agustín
-- 46804 - Pitavino Tomás
-- 49806 - Enzo Zajarías
+- 46804 - Pitavino, Tomás
+- 52967 - Bertotti, Santino
 
 ## Estructura
 
