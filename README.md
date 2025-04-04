@@ -3,7 +3,8 @@
 # Integrantes
 
 - 47403 - Gómez, Agustín
-- 46804 - Pitavino Tomás
+- 46804 - Pitavino, Tomás
+- 52967 - Bertotti, Santino
 
 # Estructura
 
