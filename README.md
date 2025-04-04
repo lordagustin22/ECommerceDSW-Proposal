@@ -5,6 +5,7 @@
 - 47403 - Gómez, Agustín
 - 46804 - Pitavino, Tomás
 - 52967 - Bertotti, Santino
+- 49806 - Zajarías Enzo
 
 ## Estructura
 
@@ -18,17 +19,17 @@
 
 ## Descripción
 
-Esto es un E-commerce de una mueblería. Los clientes podrán buscar, filtrar cada producto en un catálogo que se les muestra, así como agregarlos a favoritos. Los productos se pueden agregar directamente al carrito o pasar al checkout inmediatamente. Al hacer checkout se puede elegir el medio de pago que más le convenga al cliente. Conforme un cliente compra muchos productos, se les va otorgando puntos que les permitirán tener descuentos. Los costos de envío se reducirán cuando los clientes compren en mucha cantidad. Las compras en mucha cantidad son consideradas como compras mayoristas. Hay un sistema de reseñas donde cada cliente puede dejar su opinión del producto. Cada compra hecha por un usuario se agrega a un historial de pedidos.
+Esto es un E-commerce de una mueblería. Los clientes podrán buscar, filtrar cada producto en un catálogo que se les muestra, así como agregarlos a favoritos. Los productos se pueden agregar directamente al carrito o pasar al checkout inmediatamente. Al hacer checkout se puede elegir el medio de pago que más le convenga al cliente. Conforme un cliente compra muchos productos, se les va otorgando puntos que les permitirán tener descuentos. Los costos de envío se reducirán cuando los clientes compren en mucha cantidad. Las compras en mucha cantidad son consideradas como compras mayoristas. Hay un sistema de reseñas donde cada cliente puede dejar su opinión del producto.
 
 Los administradores pueden subir, actualizar, gestionar y borrar cada uno de los productos.
 
-Clases: Cliente, Producto, Administrador, Precio, Proveedor, Vendedor
+Clases: Cliente, Producto, Administrador, Precio, Proveedor
 
 1. Modelado del Negocio
 
 - Clientes:
 
-  - Compradores de muebles (B2C).
+  - Compradores de muebles
 
 - Administradores:
 
@@ -46,7 +47,7 @@ Clases: Cliente, Producto, Administrador, Precio, Proveedor, Vendedor
 
    - Para Administradores:
 
-     - Panel de control (CRUD de productos, usuarios, pedidos).
+     - Panel de control (CRUD de productos, usuarios).
      - Gestión de inventarios
      - Dashboard de ventas
      - Gestión de envíos
@@ -54,7 +55,7 @@ Clases: Cliente, Producto, Administrador, Precio, Proveedor, Vendedor
 3. MVP (Mínimo Producto Viable)
 
    - Fase 1: Catálogo + carrito + checkout básico.
-   - Fase 2: Autenticación + panel de administrador.
+   - Fase 2: Administrador + Usuario + Autenticación + panel de administrador.
    - Fase 3 (opcional): Dashboard de ventas + reseñas + integración con logística.
 
 <!-- 4. Tecnologías Confirmadas -->
